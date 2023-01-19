@@ -1,0 +1,21 @@
+#grid {
+  display: grid;
+
+  width: min-content;
+
+  grid-template-rows: repeat(18, 27px);
+  grid-template-columns: repeat(18, 27px);
+}
+
+.block {
+  background-color: white;
+  transition: background-color 0.25s;
+}
+
+.block:hover {
+  background-color: grey;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
